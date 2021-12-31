@@ -16,11 +16,11 @@ final ThemeData kIOSTheme = ThemeData(
 );
 
 final ThemeData kDefaultTheme = ThemeData(
-  primarySwatch: Colors.orange,
+  primarySwatch: Colors.purple,
   accentColor: Colors.orangeAccent,
 );
 
-String _name = 'Your Name';
+String _name = 'Rohit S';
 
 class FriendlyChatApp extends StatelessWidget {
   const FriendlyChatApp({
@@ -165,7 +165,7 @@ class _ChatScreenState extends State<ChatScreen> with TickerProviderStateMixin {
           ],
         ),
       ),
-    );
+    ); //Rohit Testing
   }
 
   void _handleSubmitted(String text) {
